@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login Page</title>
-    <!--linking stylesheet-->
+     <!--linking stylesheet-->
      <link rel="stylesheet" href="styles.css">
      <!--linking favourite icon/favicon-->
      <link rel="icon" href="image.ico">
@@ -12,18 +12,26 @@
   <body>
     <div class="Grid_Login">
       <header class ="header">
-          <h1 id="Loginheading">Login page</h1>
+          <h1 id="heading">Login page</h1>
       </header>
-      <main class="main">
-        
+      <main class= "main">
+          <form id="login_form" action="loginProcess.php" method="post">
+            <fieldset>
+              <legend>Login Details</legend>
+                <label>Username</label>
+                <input type="text" name="username" required>
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </fieldset>
+            <br>
+            <fieldset>
+              <label>Submit Login Details</label>
+              <input type="submit" value="Log in" id="submit_login">
+            </fieldset>
+          </form>
       </main>
-      <aside>
-          ggvytygy
+      <footer class = "footer">
 
-
-      </aside>
-      <footer>
-        
       </footer>
     </div>
   </body>

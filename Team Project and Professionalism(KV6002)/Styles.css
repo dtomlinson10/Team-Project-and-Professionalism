@@ -1,8 +1,34 @@
-Grid_Login
+/*------------------------------------------*/
+/* main tags*/
+body{
+  font-size: 25px;
+}
+/*------------------------------------------*/
+/* classes*/
+/*setting up the grid layout for the login page*/
+.Grid_Login{
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+          "header"
+          "main"
+          "footer";
+}
+/*grid for basic pages*/
+.Grid
 {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-areas: "Logo Header Logout"
+                      "navbar navbar navbar"
+                      "aside main main"
+                      "footer footer footer";
+
 
 }
+.navbar{
 
+}
 /*------------------------------------------*/
 /* ids */
 
