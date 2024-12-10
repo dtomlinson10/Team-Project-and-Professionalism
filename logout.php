@@ -1,5 +1,5 @@
 <?php
-ini_set("session.save_path", "0;644;/var/www/html/Public_html/sessionData");
+ini_set("session.save_path", "0;644;/var/www/html/Team_Project_and_Professionalism(KV6002)/sessionData");
 session_start();
 
 // Turn on PHP error reporting for debugging purpose
@@ -18,7 +18,7 @@ error_reporting(E_ALL);
     <link rel="stylesheet" href="styles.css">
 
     <!--linking favourite icon/favicon-->
-    <link rel="icon" href="image.ico">
+    <link rel="icon" href="">
   </head>
   <body>
     <div class="grid_con2">

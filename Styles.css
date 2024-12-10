@@ -3,14 +3,14 @@
 body{
   font-size: 25px;
   background-color:#E6E6FA;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 0 50px;
   text-align: center;
   position:relative;
   font-family: 'Merriweather', serif;
 }
 /*------------------------------------------*/
 /* classes*/
-/*setting up the grid layout for the login page*/
+/* grid for the login page*/
 .Grid_Login{
   display:grid;
   grid-template-columns: 100%;
@@ -19,8 +19,8 @@ body{
           "main"
           "footer";
 }
-/*grid for basic pages*/
-.Grid
+/*grid for home page*/
+.Grid_home
 {
   display: grid;
   grid-template-columns: 25% 50% 25%;
@@ -31,6 +31,20 @@ body{
 
 
 }
+/*grid for basic pages*/
+.Grid_basic{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-areas: "Logo Header logout1"
+                      "navbar navbar navbar"
+                      "main main main"
+                      "footer footer footer";
+
+
+}
+
+
+
 .header{
   grid-area: header;
 }
@@ -48,6 +62,11 @@ body{
   font-size: 20px;
   text-align: center;
   height: 100px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 /*styling for horisontal dotted lines for format*/
 .horisontal_dotted_line{

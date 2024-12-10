@@ -1,5 +1,5 @@
 <?php
-ini_set("session.save_path", "0;644;/var/www/html/Public_html/sessionData");
+ini_set("session.save_path", "0;644;/var/www/html/sessionData");
 session_start();
 
 // Turn on PHP error reporting for debugging purpose
@@ -54,7 +54,7 @@ error_reporting(E_ALL);
           } else {
               set_session('logged-in', true);
               echo "<p>Login Success</p>\n";
-              echo "<a href='restricted.php'>Restricted page</a>\n";
+              echo "<a href='Home.php'>Home Page</a>\n";
           }
        ?>
         </main>

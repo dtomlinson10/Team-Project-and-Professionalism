@@ -7,10 +7,10 @@
     <!--linking stylesheet-->
      <link rel="stylesheet" href="styles.css">
      <!--linking favourite icon/favicon-->
-     <link rel="icon" href="image.ico">
+     <link rel="icon" href="Logo/Logo.png">
   </head>
   <body>
-    <div class="Grid">
+    <div class="Grid_home">
       <header class ="header">
           <h1 id="Loginheading">Login page</h1>
       </header>
