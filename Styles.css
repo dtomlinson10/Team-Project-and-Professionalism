@@ -2,6 +2,11 @@
 /* main tags*/
 body{
   font-size: 25px;
+  background-color:#a2b4a8;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  position:relative;
+  font-family: 'Merriweather', serif;
 }
 /*------------------------------------------*/
 /* classes*/
@@ -19,21 +24,44 @@ body{
 {
   display: grid;
   grid-template-columns: 25% 50% 25%;
-  grid-template-areas: "Logo Header Logout"
+  grid-template-areas: "Logo Header logout1"
                       "navbar navbar navbar"
                       "aside main main"
                       "footer footer footer";
 
 
 }
+.header{
+  grid-area: header;
+}
+.main{
+  grid-area: main;
+}
 .navbar{
-
+  grid-area: navbar;
+}
+.aside{
+  grid-area: aside;
+}
+.footer{
+  grid-area: footer;
+  font-size: 20px;
+  text-align: center;
+  height: 100px;
+}
+/*styling for horisontal dotted lines for format*/
+.horisontal_dotted_line{
+  border-style: dotted none none;
+    border-width: 10px;
+    border-color: silver;
+    width: 65%;
+    margin: 10px auto;
 }
 /*------------------------------------------*/
 /* ids */
 
 
-#Loginheading
+#heading
 {
-
+  margin-left: 10px;
 }

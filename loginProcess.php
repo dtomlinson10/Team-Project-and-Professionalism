@@ -13,34 +13,36 @@ error_reporting(E_ALL);
     <meta charset="utf-8">
     <title>Login Process</title>
     <!--linking stylesheet-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Styles.css">
 
     <!--linking favourite icon/favicon-->
     <link rel="icon" href="image.ico">
-
   </head>
   <body>
-    <div class="grid_con2">
+    <div class="Grid">
       <header class ="header">
           <h1 id="heading">Login Process</h1>
       </header>
       <div class="logout1">
         <a href="logout.php">Logout</a>
       </div>
-      <nav class="nav">
-          <table class ="nav_table" id ="nav_menu">
-            <tr>
-               <td>
-                 <a href="home.html">Home</a>
-               </td>
-               <td>
-                 <a href="choose_event.php">Edit Form</a>
-               </td>
-               <td>
-                 <a href="credits.html">Credits</a>
-               </td>
-            </tr>
-          </table>
+      <nav class="navbar">
+        <table class ="nav_table" id ="nav_menu">
+          <tr>
+             <td>
+               <a href="index.html">Home</a>
+             </td>
+             <td>
+               <a href="Event_Library.php">Event Library</a>
+             </td>
+             <td>
+               <a href="Event_Signup.php">Event Signup</a>
+             </td>
+             <td>
+               <a href="credits.html">Credits</a>
+             </td>
+          </tr>
+        </table>
       </nav>
     <main>
       <?php
@@ -57,13 +59,7 @@ error_reporting(E_ALL);
        ?>
         </main>
         <footer class = "footer">
-            <table>
-              <tr>
-                <td>By Daniel Tomlinson</td>
-                <td>Student Number: W21006990</td>
-              </tr>
-            </table>
+          <p>By Daniel Tomlinson(w21006990), Matthew Hunter(w20016663), Hamza Khan(w21011982)</p>
         </footer>
-
   </body>
 </html>
