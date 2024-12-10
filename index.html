@@ -7,7 +7,7 @@
      <!--linking stylesheet-->
      <link rel="stylesheet" href="Styles.css">
      <!--linking favourite icon/favicon-->
-     <link rel="icon" href="image.ico">
+     <link rel="icon" href="Logo/Logo.png">
   </head>
   <body>
     <div class="Grid_Login">
@@ -16,7 +16,7 @@
       </header>
       <main class= "main">
           <form action="loginProcess.php" method="post">
-            <fieldset>
+            <fieldset class="form_fieldset">
               <legend>Login Details</legend>
                 <label>Username</label>
                 <input type="text" name="username" required>
@@ -24,7 +24,7 @@
                 <input type="password" name="password" required>
             </fieldset>
             <br>
-            <fieldset>
+            <fieldset class="form_fieldset">
               <label>Submit Login Details</label>
               <input type="submit" value="Log in" id="submit_login">
             </fieldset>

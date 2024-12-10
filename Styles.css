@@ -2,7 +2,7 @@
 /* main tags*/
 body{
   font-size: 25px;
-  background-color:#a2b4a8;
+  background-color:#E6E6FA;
   margin: 0 auto 0 auto;
   text-align: center;
   position:relative;
@@ -48,6 +48,9 @@ body{
   font-size: 20px;
   text-align: center;
   height: 100px;
+}
+.form_fieldset{
+  border-style: dotted none none;
 }
 /*styling for horisontal dotted lines for format*/
 .horisontal_dotted_line{
