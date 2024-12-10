@@ -49,9 +49,6 @@ body{
   text-align: center;
   height: 100px;
 }
-.form_fieldset{
-  border-style: dotted none none;
-}
 /*styling for horisontal dotted lines for format*/
 .horisontal_dotted_line{
   border-style: dotted none none;
@@ -62,7 +59,9 @@ body{
 }
 /*------------------------------------------*/
 /* ids */
-
+#form_fieldset{
+  border-color: black;
+}
 
 #heading
 {
